@@ -6,9 +6,9 @@ class ApplicationController < ActionController::Base
 
   # ログイン後の遷移先、after_sign_in_path_forはDeviseが用意しているメソッド
   def after_sign_in_path_for(resource)
-    about_path
+    post_images_path
   end
-  
+
   # サインアウト後の遷移先、after_sign_out_path_forはDeviseが用意しているメソッド
   def after_sign_out_path_for(resource)
     about_path
