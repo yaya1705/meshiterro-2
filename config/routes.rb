@@ -3,6 +3,8 @@ Rails.application.routes.draw do
   root to: "homes#top"
   get "homes/about" => "homes#about", as: "about"
   resources :post_images, only:[:index, :new, :create, :show, :destroy] do
+  # resourceは「それ自身のidが分からなくても、関連する他のモデルのidから特定できる」といった場合に用いることが多い
+    resource :favorites, only:[:create, :destroy]
     resources :post_comments, only: [:create, :destroy]
   end
   resources :users, only:[:edit, :update, :show]
