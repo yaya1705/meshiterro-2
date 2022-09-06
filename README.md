@@ -1,5 +1,7 @@
 # アプリケーションを作成してみよう2
+<img width="774" alt="スクリーンショット 2022-09-07 0 00 37" src="https://user-images.githubusercontent.com/66726846/188671470-7483e948-753b-4ff7-98d8-792b648b8b02.png">
 
+<img width="773" alt="スクリーンショット 2022-09-06 23 59 27" src="https://user-images.githubusercontent.com/66726846/188671417-60fef70a-4920-4133-89af-8d16bdcc8103.png">
 
 ## 課題手順
 
@@ -28,7 +30,7 @@
 - 22章【ページネーションを学ぼう】
 - 23章【CSSフレームワークBootstrapを使おう】
 - 24章【MeshiterroにBootstrapを導入しよう】
--
+
 ## 開発環境
 - 言語：HTML,CSS,Ruby,SQL
 - フレームワーク：Ruby on Rails
